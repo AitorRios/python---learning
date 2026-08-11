@@ -57,6 +57,28 @@ Próximamente...
 | Proyectos               | ⚪ Pendiente    |
 
 ---
+## 📚 Progreso de aprendizaje
+
+### Bloque 1 — Fundamentos de Python
+
+| Tema | Estado |
+|---|---|
+| Variables y tipos | ✅ |
+| Entrada y salida | ✅ |
+| Operadores | ✅ |
+| Condicionales | ✅ |
+| Bucles | 🟡 |
+| Listas | 🟢 |
+| Tuplas | 🟢 |
+| Sets | 🟡 |
+| Diccionarios | ⬜ |
+| Strings | 🟢 |
+| Funciones | 🟡 |
+| Archivos | 🟡 |
+| try / except | 🟡 |
+
+**Estado:** 🟡 En consolidación
+
 
 > Este repositorio representa mi evolución como programador.
 > El código irá creciendo a medida que aumenten mis conocimientos.
