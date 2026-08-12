@@ -1,6 +1,6 @@
 #Presentación
 
-"""nombre = "Aitor"
+nombre = "Aitor"
 edad = 39
 profesion = "Quiromasajista"
 
@@ -35,7 +35,7 @@ for edad in edades:
     if edad > 5:
         mayores.append(edad)
     else:
-        menores_o_igual.append(edad)
+        menores_o_iguales.append(edad)
 #salida
 print(mayores, menores_o_iguales)
 
@@ -208,7 +208,7 @@ for edad in edades:
         mayores += 1
 
 #salida
-print(mayores)"""
+print(mayores)
 
 #Tupla + condición + acumulador
 #entrada
@@ -224,3 +224,31 @@ for precio in precios:
 
 #salida
 print(suma_total)
+
+#Dia 2 Diccionarios + bucles + condiciones
+# tambien, conteo y calculos.
+#entrada
+notas = {
+    "Ana": 8,
+    "Luis": 5,
+    "Marta": 9,
+    "Pedro": 4,
+    "Laura": 7
+}
+
+#datos
+aprobado = 0
+suspendidos = 0
+suma_notas = 0
+
+for nombre, nota in notas.items():
+    if nota >= 5:
+        print(f"{nombre}: {nota} - Aprobado")
+        aprobado += 1
+        suma_notas += nota
+    else:
+        print(f"{nombre}: {nota} - Suspendido")
+        suspendidos += 1
+        suma_notas += nota
+nota_media = suma_notas / len(notas)
+print(f"Aprobados: {aprobado}.\nSuspendidos: {suspendidos}.\nNota media: {nota_media:.2f}.")
