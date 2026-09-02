@@ -1,14 +1,27 @@
 #Calculadora básica
-#siguiente paso, controlar entrada, por si usuario introduce digito en vez de un número.
-
+#siguiente paso, hacer que imprima en int cuando sea necesario y en float cuando lleve decimales.
 #entrada
-print("Introduce el primer número:")
-numero_1 = int(input())
-print("Introduce el operado: +, -, / o *: ")
-operador = input()
-print("Por último, introduce el segundo número: ")
-numero_2 = int(input())
-#datos
+
+operadores_correctos = ["+", "-", "/", "*"]
+while True:
+    try:
+        numero_1 = float(input("Introduce el primer número:"))
+        while True:
+            operador = input("Introduce el operado: +, -, / o *:")
+            if operador not in operadores_correctos:
+                print("Introduce uno de los operaores correctos")
+            else:
+                break
+        while True:            
+            try:
+                numero_2 = float(input("Por último, introduce el segundo número: "))
+                break
+            except ValueError:
+                print("Introduce un valor númerico correcto")
+        break
+    except ValueError:
+        print("Introduce un valor númerico correcto")
+
 def sumar(numero1, numero2):
     return numero1 + numero2
 
@@ -33,9 +46,6 @@ elif operador == "/":
     print(dividir(numero_1, numero_2))
 elif operador == "*":
     print(multiplicar(numero_1, numero_2))
-
-
-
 
 
 
