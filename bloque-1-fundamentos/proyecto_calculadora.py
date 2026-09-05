@@ -39,17 +39,27 @@ def multiplicar(numero1, numero2):
 
 #proceso
 if operador == "+":
-    print(sumar(numero_1, numero_2))
+    suma = sumar(numero_1, numero_2)
+    if suma % 1 == 0:
+        print(int(suma))
+    else:
+        print(suma)
 elif operador == "-":
-    print(restar(numero_1, numero_2))
+    resta = restar(numero_1, numero_2)
+    if resta % 1 == 0:
+        print(int(resta))
+    else:
+        print(resta)
 elif operador == "/":
-    print(dividir(numero_1, numero_2))
+    divi = dividir(numero_1, numero_2)
+    if divi % 1 == 0:
+        print(int(divi))
+    else:
+        print(divi)
 elif operador == "*":
-    print(multiplicar(numero_1, numero_2))
-
-
-
-
-
-
+    multiplica = multiplicar(numero_1, numero_2)
+    if multiplica % 1 == 0:
+        print(int(multiplica))
+    else:
+        print(multiplica)
 
