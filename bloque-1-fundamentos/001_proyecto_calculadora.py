@@ -1,5 +1,4 @@
 #Calculadora básica
-#siguiente paso, hacer que imprima en int cuando sea necesario y en float cuando lleve decimales.
 #entrada
 
 operadores_correctos = ["+", "-", "/", "*"]
