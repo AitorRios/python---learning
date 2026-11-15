@@ -1,5 +1,5 @@
 #p001 two sum
-"""nums = [2,7,11,15]
+nums = [2,7,11,15]
 target = 9
 
 def dos_sumas(lista, objetivo):
@@ -29,7 +29,7 @@ while n > 0 :
 if entrada == inverso:
     print("Verdadero")
 else: 
-    print("Falso")"""
+    print("Falso")
 
 # conversion de números romanos a enteros
 
