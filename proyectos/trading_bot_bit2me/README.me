@@ -1,0 +1,131 @@
+# ₿ Bit2Me Trading Bot
+
+Bot de trading desarrollado en **Python**, conectado a la API de Bit2Me y orientado inicialmente al análisis del mercado de criptomonedas **BTC/EUR**.
+
+Este proyecto forma parte de mi aprendizaje y desarrollo como programador. Su objetivo es construir progresivamente un sistema capaz de recopilar datos del mercado, analizarlos y desarrollar estrategias de trading automatizado.
+
+El desarrollo se realizará inicialmente en un entorno de **simulación (Paper Trading)**, sin utilizar dinero real.
+
+---
+
+## 🎯 Objetivos del proyecto
+
+- Conectar Python con la API de Bit2Me.
+- Obtener y procesar datos del mercado en tiempo real.
+- Analizar el libro de órdenes (*Order Book*).
+- Estudiar el comportamiento del mercado mediante indicadores técnicos.
+- Diseñar algoritmos y estrategias de trading.
+- Implementar un sistema de simulación de operaciones.
+- Incorporar progresivamente mecanismos de gestión del riesgo.
+
+---
+
+## 🧩 Funcionalidades
+
+| Funcionalidad | Estado |
+|---|---|
+| Conexión con API pública de Bit2Me | 🟢 En desarrollo |
+| Consulta de precios y mercados | 🟢 En desarrollo |
+| Análisis del libro de órdenes | 🟢 En desarrollo |
+| Cálculo del spread | 🟡 En desarrollo |
+| Análisis de desequilibrio entre órdenes | 🟡 En desarrollo |
+| Análisis de profundidad del mercado | 🟡 En desarrollo |
+| Recopilación de datos históricos | ⚪ Pendiente |
+| Indicadores técnicos | ⚪ Pendiente |
+| Diseño de estrategias | ⚪ Pendiente |
+| Paper Trading | ⚪ Pendiente |
+| Gestión del riesgo | ⚪ Pendiente |
+
+---
+
+## 📊 Análisis del mercado
+
+Una de las primeras partes del proyecto consiste en estudiar la información proporcionada por el libro de órdenes.
+
+Los principales parámetros que se analizarán son:
+
+- **Spread:** diferencia entre el mejor precio de compra (*Bid*) y el mejor precio de venta (*Ask*).
+- **Desequilibrio:** relación entre el volumen de órdenes de compra y venta.
+- **Profundidad:** volumen disponible en diferentes niveles de precios.
+- **Volumen:** cantidad de activos disponibles en determinados rangos de precios.
+
+El objetivo es transformar los datos del mercado en información útil para el posterior desarrollo de estrategias.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Python:** lenguaje principal del proyecto.
+- **Requests:** comunicación con la API mediante peticiones HTTP.
+- **API REST de Bit2Me:** obtención de información del mercado.
+- **Git y GitHub:** control de versiones y documentación del desarrollo.
+
+Se incorporarán nuevas herramientas y bibliotecas según evolucionen las necesidades del proyecto.
+
+---
+
+## 📁 Estructura del proyecto
+
+La estructura se irá ampliando a medida que avance el desarrollo.
+
+```text
+trading-bot-bit2me/
+│
+├── README.md
+├── main.py
+│
+├── api/
+│   └──
+│
+├── analisis/
+│   └──
+│
+├── indicadores/
+│   └──
+│
+└── datos/
+    └──
+```
+
+---
+
+## 🔐 Seguridad
+
+La seguridad es una parte importante del desarrollo.
+
+- No se publicarán claves API ni credenciales privadas.
+- Se utilizarán inicialmente endpoints públicos que no requieren autenticación.
+- Las credenciales privadas, cuando sean necesarias, se gestionarán mediante variables de entorno.
+- Se evitará almacenar información sensible en el repositorio.
+
+---
+
+## 📈 Desarrollo por etapas
+
+1. Conexión y comunicación con la API.
+2. Recopilación y procesamiento de datos.
+3. Análisis del libro de órdenes.
+4. Almacenamiento de datos históricos.
+5. Incorporación de indicadores técnicos.
+6. Diseño y evaluación de estrategias.
+7. Desarrollo del sistema de Paper Trading.
+8. Implementación de gestión del riesgo.
+9. Evaluación y optimización del sistema.
+
+---
+
+## ⚠️ Aviso
+
+Este proyecto tiene fines educativos y experimentales.
+
+No constituye asesoramiento financiero ni garantiza resultados positivos en el mercado.
+
+El desarrollo inicial se realizará exclusivamente mediante simulación, sin ejecutar operaciones con dinero real.
+
+---
+
+## 👨‍💻 Autor
+
+Proyecto personal desarrollado como parte de mi formación en Python, programación y análisis algorítmico.
+
+**Estado:** En desarrollo 🚧

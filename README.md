@@ -1,8 +1,10 @@
-# 🐍 Python - aprendizaje
+# 🐍 Python — Aprendizaje y desarrollo
 
 Repositorio personal donde documento mi aprendizaje de **Python** mediante ejercicios, prácticas, algoritmos y proyectos.
 
-La idea es registrar mi evolución como programador y poner en práctica los conocimientos adquiridos durante mi formación.
+El objetivo es construir una base sólida de programación, desarrollar mi capacidad para resolver problemas y evolucionar progresivamente como programador.
+
+Este repositorio recoge mi proceso de aprendizaje, desde los fundamentos del lenguaje hasta el desarrollo de aplicaciones y proyectos prácticos.
 
 ---
 
@@ -10,8 +12,10 @@ La idea es registrar mi evolución como programador y poner en práctica los con
 
 ### 🔹 Bloque 1 — Fundamentos de Python
 
+Estudio y consolidación de los conceptos esenciales del lenguaje.
+
 - Variables y tipos de datos
-- Entrada y salida
+- Entrada y salida de datos
 - Operadores
 - Condicionales
 - Bucles
@@ -19,30 +23,57 @@ La idea es registrar mi evolución como programador y poner en práctica los con
 - Tuplas
 - Conjuntos
 - Diccionarios
-- Strings
+- Cadenas de caracteres
 - Funciones
-- Archivos
 - Manejo de excepciones (`try / except`)
 
 📁 `bloque-1-fundamentos/`
 
-### 🔹 Bloque 2 — Próximamente
+### 🔹 Bloque 2 — Estructuras de datos y algoritmos
 
-Conceptos intermedios y avanzados de Python.
+Estudio de técnicas para resolver problemas de forma eficiente y comprender cómo funcionan los algoritmos.
+
+- Algoritmos de búsqueda
+- Algoritmos de ordenación
+- Análisis de complejidad (Big O)
+- Estructuras de datos
+- Resolución de problemas de programación
+- Manejo de archivos
+
+### 🔹 Bloque 3 — Programación avanzada
+
+Profundización en Python y en conceptos de programación de nivel avanzado.
 
 ### 🔹 Proyectos
 
-Aplicaciones y proyectos prácticos desarrollados durante el aprendizaje.
+Desarrollo de aplicaciones y proyectos prácticos para aplicar los conocimientos adquiridos.
 
 ---
 
 ## 🎯 Objetivos
 
-- Aprender Python desde los fundamentos hasta un nivel avanzado.
-- Mejorar mi capacidad para resolver problemas mediante código.
-- Aprender a diseñar algoritmos.
-- Desarrollar proyectos prácticos.
-- Aplicar Python posteriormente a **Inteligencia Artificial, automatización y ciberseguridad**.
+- Dominar Python desde los fundamentos hasta un nivel avanzado.
+- Mejorar mi capacidad de razonamiento y resolución de problemas.
+- Aprender a diseñar y analizar algoritmos.
+- Comprender el funcionamiento interno del lenguaje.
+- Desarrollar proyectos prácticos y aplicaciones reales.
+- Preparar las certificaciones oficiales de Python Institute.
+- Aplicar Python a áreas como la **Inteligencia Artificial, la automatización y la ciberseguridad**.
+
+---
+
+## 🏆 Certificaciones
+
+Mi objetivo es avanzar progresivamente en las certificaciones oficiales de Python Institute.
+
+| Certificación | Objetivo |
+|---|---|
+| PCEP | Fundamentos de Python |
+| PCAP | Programación asociada y nivel avanzado |
+| PCPP1 | Programación profesional |
+| PCPP2 | Programación profesional avanzada |
+
+**Prioridad actual:** preparación de la certificación PCEP.
 
 ---
 
@@ -51,21 +82,21 @@ Aplicaciones y proyectos prácticos desarrollados durante el aprendizaje.
 | Área | Estado |
 |---|---|
 | Fundamentos de Python | 🟢 En consolidación |
-| Algoritmos | 🟡 En progreso |
+| Estructuras y algoritmos | 🟡 En progreso |
 | Programación avanzada | ⚪ Pendiente |
 | Inteligencia Artificial | ⚪ Pendiente |
 | Ciberseguridad | ⚪ Pendiente |
-| Proyectos | ⚪ Pendiente |
+| Proyectos prácticos | ⚪ Pendiente |
 
 ---
 
-## 📚 Progreso de aprendizaje
+## 📚 Seguimiento del aprendizaje
 
 ### Bloque 1 — Fundamentos de Python
 
 | Tema | Estado |
 |---|---|
-| Variables y tipos | ✅ |
+| Variables y tipos de datos | ✅ |
 | Entrada y salida | ✅ |
 | Operadores | ✅ |
 | Condicionales | ✅ |
@@ -74,21 +105,34 @@ Aplicaciones y proyectos prácticos desarrollados durante el aprendizaje.
 | Tuplas | 🟢 |
 | Conjuntos | 🟢 |
 | Diccionarios | 🟢 |
-| Strings | 🟢 |
+| Cadenas de caracteres | 🟢 |
 | Funciones | 🟢 |
-| Archivos | 🟡 |
-| `try / except` | 🟡 |
+| Manejo de excepciones | 🟡 |
 
 **Estado del bloque:** 🟢 En consolidación
 
----
+### Bloque 2 — Estructuras de datos y algoritmos
 
-## 🗂️ Portfolio
-
-Este repositorio contiene las prácticas y ejercicios realizados durante mi aprendizaje.
-
-Los ejercicios pequeños se agrupan por temática, mientras que los proyectos más completos tendrán su propia carpeta y documentación.
+**Estado del bloque:** 🟡 En progreso
 
 ---
 
-> 📈 Este repositorio representa mi evolución como programador. El código irá creciendo a medida que aumenten mis conocimientos.
+## 🗂️ Organización del repositorio
+
+Los ejercicios y prácticas se organizan por bloques y temáticas.
+
+Los ejercicios pequeños se agrupan para mantener una estructura ordenada, mientras que los proyectos más completos dispondrán de su propia carpeta y documentación.
+
+---
+
+## 🚀 Próximos objetivos
+
+- Consolidar los fundamentos de Python.
+- Completar el estudio de estructuras de datos y algoritmos.
+- Dominar el temario de la certificación PCEP.
+- Avanzar hacia la certificación PCAP.
+- Desarrollar proyectos que permitan aplicar los conocimientos adquiridos.
+
+---
+
+> 📈 Este repositorio representa mi evolución como programador: cada ejercicio, cada práctica y cada proyecto forma parte del camino hacia un dominio más profundo de Python.
